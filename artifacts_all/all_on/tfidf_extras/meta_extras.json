@@ -1,0 +1,21 @@
+{
+  "variant": "all_on",
+  "base_repr": "tfidf",
+  "base_tag": "tfidf12_50k",
+  "extra_columns": [
+    "lex_pos",
+    "lex_neg",
+    "emoji_pos",
+    "emoji_neg",
+    "exclam"
+  ],
+  "train_shape": [
+    24169,
+    50005
+  ],
+  "test_shape": [
+    6043,
+    50005
+  ],
+  "notes": "Emojis positivos/negativos aprendidos desde TRAIN según polaridad (1-5)."
+}
